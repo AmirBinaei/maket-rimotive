@@ -1,0 +1,204 @@
+
+.comp-name {
+    font-size:  2rem;
+}
+
+.comp-loc {
+    font-size: 1.2rem;
+}
+
+
+.title {
+    font-size: 14vw;
+    max-width: 96%;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.sub-title {
+    font-size: 6vw;
+}
+
+.card {
+    margin-top: 2vh;
+}
+
+.center {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 800;
+    margin: .2rem 0;
+}
+
+select,
+input {
+    padding: .3rem 2rem .3rem .3rem;
+    margin: 0 .5rem;
+    outline: none;
+}
+
+#sub,
+#apply {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 1rem;
+    padding: .7rem 1rem;
+    margin: 1rem auto;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#sub:hover {
+    background-color: transparent;
+}
+
+#apply:hover {
+    background-color: transparent;
+}
+
+.cat2 {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.filter {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.job-box {
+    width: 100%;
+    margin: auto;
+}
+
+.job-item {
+    width: 94vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 3vw;
+    border: 4px solid rgb(128, 24, 24);
+}
+
+.compony-descrb {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    margin: 0 0 1rem;
+}
+
+.img {
+    flex-basis: 15%;
+}
+
+.img img {
+    width: 100px;
+    height: 100px;
+}
+
+.prembale span {
+    font-weight: 600;
+    margin: .2rem;
+}
+
+h4 {
+    margin-bottom: .2rem;
+}
+
+.Description {
+    padding: .3rem .1rem .4rem;
+
+}
+
+.tags-item {
+    display: flex;
+}
+
+.box-item {
+    border: 1px solid #ccc;
+    padding: 0.2rem .5rem;
+    border-radius: .5rem;
+    margin: 0.5%;
+    width: 99%;
+}
+
+.saveid{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .select-container {
+        flex-direction: column;
+    }
+
+    .input-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-box label {
+        text-align: center;
+    }
+
+
+}
